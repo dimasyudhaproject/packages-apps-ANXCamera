@@ -1,0 +1,8 @@
+on property:sys.boot_completed=1
+    start anx-camera
+
+service anx-camera /system/bin/anx-camera.sh
+    class main
+    user root
+    group root
+    disabled
