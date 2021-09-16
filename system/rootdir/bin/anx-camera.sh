@@ -12,5 +12,3 @@ if [ -d "$ANX_PATH" ];
 fi
 
 mkdir -p /sdcard/DCIM/Camera/Lab_options_visible
-
-exit 0
